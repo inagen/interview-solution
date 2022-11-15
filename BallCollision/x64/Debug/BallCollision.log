@@ -1,0 +1,92 @@
+﻿  main.cpp
+D:\interview\BallCollision\GlobalState.h(51,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(44,34): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(45,34): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(46,50): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(47,50): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(49,27): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(50,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(56,76): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(57,79): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(58,62): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(58,46): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(58,92): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(59,62): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(59,46): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(59,95): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(72,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(80,40): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(121,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(122,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(124,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(125,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\interview\BallCollision\PhysicsEngine.h(127,63): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(127,59): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(128,63): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(128,59): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\interview\BallCollision\PhysicsEngine.h(204,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  BallCollision.vcxproj -> D:\interview\x64\Debug\BallCollision.exe
