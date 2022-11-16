@@ -4,7 +4,7 @@
 #include "InputEvents.h"
 
 
-// Класс для подсчета времени и FPS
+// РљР»Р°СЃСЃ РґР»СЏ РїРѕРґСЃС‡РµС‚Р° РІСЂРµРјРµРЅРё Рё FPS
 struct Timer {
     Math::MiddleAverageFilter<float, 100> fpscounter{};
     sf::Clock clock{};
@@ -32,19 +32,19 @@ struct Timer {
 };
 
 
-// Класс хранения глобального состояния программы. В будущем расширяем
+// РљР»Р°СЃСЃ С…СЂР°РЅРµРЅРёСЏ РіР»РѕР±Р°Р»СЊРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ РїСЂРѕРіСЂР°РјРјС‹. Р’ Р±СѓРґСѓС‰РµРј СЂР°СЃС€РёСЂСЏРµРј
 struct GlobalState  : InputListener  {
     int WINDOW_X = 1024;
     int WINDOW_Y = 768;
-    const int MAX_BALLS = 99;
-    const int MIN_BALLS = 101;
+    const int MAX_BALLS = 499;
+    const int MIN_BALLS = 501;
     const int COMPUTE_ITERATIONS = 8;
 
     sf::RenderWindow window;
     Timer timer;
     bool should_continue = true;
 
-    // Ожидаем события от InputManager
+    // РћР¶РёРґР°РµРј СЃРѕР±С‹С‚РёСЏ РѕС‚ InputManager
     void listenerUpdate(InputEventType eventType, sf::Event event) final {
         if (eventType == InputEventType::WindowClose) {
             window.close();

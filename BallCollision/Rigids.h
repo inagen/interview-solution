@@ -1,7 +1,7 @@
 #pragma once
 #include "Renderer.h"
 
-struct Ball : Drawable { // Шар надо уметь рисовать
+struct Ball : Drawable { // РЁР°СЂ РЅР°РґРѕ СѓРјРµС‚СЊ СЂРёСЃРѕРІР°С‚СЊ
     sf::Vector2f p;
     sf::Vector2f dir;
     float r = 0;

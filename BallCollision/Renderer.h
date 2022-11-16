@@ -10,7 +10,7 @@ std::array<sf::Color, 4> drawable_colors = {
     sf::Color::Yellow
 };
 
-// Базовый класс для любого рисуемого объекта
+// Р…Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»В¤ Р»СЋР±РѕРіРѕ СЂРёСЃСѓРµРјРѕРіРѕ РѕР±СЉРµРєС‚Р°
 struct Drawable {
     virtual void draw(sf::RenderWindow&) const = 0;
     virtual ~Drawable() = default;
@@ -18,7 +18,7 @@ struct Drawable {
 };
 
 
-// Класс для отрисовки графики
+// В Р»Р°СЃСЃ РґР»В¤ РѕС‚СЂРёСЃРѕРІРєРё РіСЂР°С„РёРєРё
 struct Renderer {
     GlobalState& state;
     Renderer(GlobalState& s) : state(s) {

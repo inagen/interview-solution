@@ -8,12 +8,12 @@ enum class InputEventType {
 };
 
 
-// Класс подписчика на ивент
+// В РљР»Р°СЃСЃ РїРѕРґРїРёСЃС‡РёРєР° РЅР° РёРІРµРЅС‚
 struct InputListener {
     virtual void listenerUpdate(InputEventType, sf::Event) = 0;
 };
 
-// Класс для распространения ивентов подписчикам
+// В РљР»Р°СЃСЃ РґР»СЏ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёСЏ РёРІРµРЅС‚РѕРІ РїРѕРґРїРёСЃС‡РёРєР°Рј
 struct EventManager {
     std::map<InputEventType, std::deque<InputListener*>> listeners;
 
